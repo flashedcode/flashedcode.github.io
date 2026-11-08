@@ -1,1 +1,39 @@
-<iframe src="https://personal-website.xrompf-tech.workers.dev/" width="100%" height="600px" style="border:none;"></iframe>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xrompf</title>
+    <style>
+        /* Remove default spacing and hide parent page scrollbars */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; 
+        }
+
+        /* Force the iframe to lock to the edges of the screen */
+        iframe {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            z-index: 999999;
+        }
+    </style>
+</head>
+<body>
+
+    <iframe src="https://personal-website.xrompf-tech.workers.dev/"></iframe>
+
+</body>
+</html>
